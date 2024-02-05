@@ -1,5 +1,5 @@
 /* 
-Theme Name: BizBoost-Child cookie
+Theme Name: BizBoost-Child
 Text Domain: Onestop Auto Services
 Version: 1.0
 Description: My first customer theme
@@ -8,9 +8,8 @@ Author: Mathew Dewes
 Template: BizBoost
 */
 
-body{
+*{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:1em;
 
 }
 
@@ -21,4 +20,8 @@ P{
 h1{
     font-size: 36px;
     font-weight: light;
+}
+
+.wp-element-button{
+    margin-left: 30px;
 }
